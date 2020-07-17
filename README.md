@@ -11,12 +11,22 @@
 
 За основу взять методы, которые есть у структур данных: https://docs.python.org/3.6/tutorial/datastructures.html#tuples-and-sequences
 
-## Запуск
+## Установка
 
 Python3 должен быть уже установлен. 
 Затем используйте `pip` (или `pip3`, если есть конфликт с Python2) для установки зависимостей:
 ```#!bash
 
 pip install -r requirements.txt
+
+```
+
+## Запуск
+```#!bash
+
+$ pytest test_list.py
+$ pytest test_set.py
+$ pytest test_dict.py
+$ pytest test_str.py
 
 ```
